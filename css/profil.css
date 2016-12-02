@@ -1,0 +1,147 @@
+.slika-osebe {
+    width: 170px;
+    z-index: 30;
+    background-size: cover;
+    border-radius: 8px;
+    border: 4px solid aliceblue;
+    display: inline-block;
+}
+
+.slika-osebe:after {
+    display: block;
+    content: '';
+    padding-top: 100%;
+}
+
+.naslovnica {
+    max-height: 400px;
+}
+
+.osnovni-podatki {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,50%);
+    width: 100%;
+    max-width: 500px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.td-ime {
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Francois One', sans-serif;
+    font-size: 120%;
+}
+
+.ikona {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.ikona img {
+    width: 100%;
+    height: 100%;
+}
+
+.podatki {
+    display: inline-block;
+}
+
+.podatki table {
+    margin: 15px 0px;
+    margin-right: 10px;
+}
+
+th {
+    text-align: left;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+td {
+    padding: 2px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+td ul li {
+    display: inline-block;
+}
+
+th {
+    font-size: 106%;
+}
+
+.zastava {
+    height: 1em;
+    margin-top: 2px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 130%;
+    font-weight: lighter;
+}
+
+.Zlata {
+    line-height: 20px;
+    width: 23px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffd700;
+}
+
+.Srebrna {
+    line-height: 20px;
+    width: 23px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #c0c0c0;
+}
+
+.Bronasta {
+    line-height: 20px;
+    width: 23px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #cd7f32;
+}
+
+.drugi-podatki {
+    display: block;
+    margin-top: 90px;
+    
+}
+
+.tabela-statistika {
+    display: block;
+    padding-top: 40px;
+    margin: 40px;
+}
+
+.video-holder {
+    display: inline-block;
+    height: 400px;
+    max-width: 700px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.video {
+    display: inline-block;
+    height: 400px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.sponzor {
+    max-height: 50px;
+    margin: 10px 10px;
+    margin-bottom: 10px;
+}
