@@ -1,0 +1,85 @@
+.tekme {
+    margin-top: 55px;
+}
+
+.tekma {
+    width: 300px;
+    height: 160px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #2787e6;
+    display: inline-block;
+    margin: 5px;
+    background-position: top
+}
+
+.tekma h2 {
+    width: 100%;
+    font-weight: 100;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2787e6;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.tekma h2 span {
+    color: #EEE;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.datum-tekme {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 2px;
+    color: whitesmoke
+}
+
+.ime-proge {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #2787e6;
+}
+
+.psc {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    padding: 4px;
+}
+
+.informacije {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2787e6;
+    height: 26px;
+}
+
+.zastava {
+    height: 18px;
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+}
+
+.disciplina {
+    position: absolute;
+    height: 26px;
+    padding-top: 6px;
+    color: whitesmoke;
+    right: 40px;
+} 
